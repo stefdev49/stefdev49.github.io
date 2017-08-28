@@ -1,1 +1,12 @@
-_site
+_site/README.md
+_site/about/
+_site/assets/fonts/
+_site/assets/img/
+_site/assets/js/
+_site/blog/
+_site/category/
+_site/contact/
+_site/feed.xml
+_site/index.html
+_site/portfolio/
+_site/projects/
