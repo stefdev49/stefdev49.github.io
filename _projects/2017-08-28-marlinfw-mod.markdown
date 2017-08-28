@@ -9,4 +9,5 @@ thumb: marlin-thumb.jpg
 tagged: 3d printer, DiscoEasy200, marlin firmware
 website: https://github.com/stefdev49/Marlin
 ---
-####Marlin firmware for DisocEasy200
+####Marlin firmware for DiscoEasy200
+Marli firmware customized for the Dagoma DiscoEasy200.

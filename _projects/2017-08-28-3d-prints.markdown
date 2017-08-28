@@ -1,0 +1,16 @@
+---
+layout: project
+title: "3D prints with the Dagoma DiscoEasy200"
+author: stefdev49
+categories:
+- project
+img: 3dprints.png
+tagged: 3d printer, DiscoEasy200, prints
+carousel:
+- print01.png
+- print02.png
+- print03.png
+- print04.png
+- hotbed-parts.png
+---
+####3D prints done with the Dagoma DiscoEasy200
