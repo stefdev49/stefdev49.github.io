@@ -13,4 +13,5 @@ carousel:
 - print04.png
 - hotbed-parts.png
 ---
-####3D prints done with the Dagoma DiscoEasy200
+<h4>3D prints done with the Dagoma DiscoEasy200</h4>
+<div class="hline"></div>
