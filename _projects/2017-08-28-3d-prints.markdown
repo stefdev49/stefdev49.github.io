@@ -15,3 +15,4 @@ carousel:
 ---
 <h4>3D prints done with the Dagoma DiscoEasy200</h4>
 <div class="hline"></div>
+All these prints have been done with my tuned up marlin firmware.

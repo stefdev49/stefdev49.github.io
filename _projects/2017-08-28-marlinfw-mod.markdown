@@ -9,7 +9,7 @@ thumb: marlin-thumb.jpg
 tagged: 3d printer, DiscoEasy200, marlin firmware
 website: https://github.com/stefdev49/Marlin
 ---
-<h2>Marlin firmware for DiscoEasy200</h2>
+<h4>Marlin firmware for DiscoEasy200</h4>
 <div class="hline"></div>
 Marlin firmware customized for the Dagoma DiscoEasy200. I is built with the following options:
 + bilinear calibration : with 5 points per direction
