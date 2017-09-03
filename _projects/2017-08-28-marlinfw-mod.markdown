@@ -21,7 +21,7 @@ Marlin firmware customized for the Dagoma DiscoEasy200. It is built with the fol
 ```
 #### Building instructions (short version)
 <div class="hline"></div>
-First you have to get the sources with [git](https://git-scm.com/), then switch to dedicates DiscoEasy 200 branch:
+First you have to get the sources with [git](https://git-scm.com/), then switch to the dedicated DiscoEasy 200 branch:
 ```bash
 git clone https://github.com/stefdev49/Marlin.git
 cd Marlin
