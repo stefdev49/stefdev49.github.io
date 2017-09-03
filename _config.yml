@@ -2,13 +2,13 @@
 
 # Site settings
 title: stefdev49
-description: "My spftware and hardware projects."
+description: "My software and hardware projects."
 # analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "https://stefdev49.github.io"
 
 # Build settings
-highlighter: rouge
+# highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
