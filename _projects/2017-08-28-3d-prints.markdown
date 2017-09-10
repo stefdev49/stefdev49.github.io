@@ -12,6 +12,10 @@ carousel:
 - print03.png
 - print04.png
 - hotbed-parts.png
+- piece-arbre.png
+- arbre-a-bijoux.png
+- samsung-s8-ecouteurs.png
+
 ---
 #### 3D prints done with the Dagoma DiscoEasy200
 <div class="hline"></div>
