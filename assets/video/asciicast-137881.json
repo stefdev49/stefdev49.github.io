@@ -1,0 +1,634 @@
+{
+  "version": 1,
+  "width": 80,
+  "command": null,
+  "stdout": [
+    [
+      0.102121,
+      "\u001b]0;stefdev@staros ~/3D/DagoMate/tools/marlinshell\u0007\u001b[01;32mstefdev@staros\u001b[00m \u001b[01;34m~/3D/DagoMate/tools/marlinshell $\u001b[00m "
+    ],
+    [
+      1.725627,
+      "s"
+    ],
+    [
+      0.247895,
+      "r"
+    ],
+    [
+      0.25594,
+      "c"
+    ],
+    [
+      0.224025,
+      "/"
+    ],
+    [
+      0.21602,
+      "m"
+    ],
+    [
+      0.1121,
+      "a"
+    ],
+    [
+      0.24773,
+      "r"
+    ],
+    [
+      0.143998,
+      "l"
+    ],
+    [
+      0.248297,
+      "i"
+    ],
+    [
+      0.279982,
+      "n"
+    ],
+    [
+      0.872205,
+      "shell.js "
+    ],
+    [
+      0.711651,
+      "\r\n"
+    ],
+    [
+      0.28917,
+      "\u001b[?1049h\u001b[?1h\u001b=\u001b[1;24r\u001b[?25l\u001b[1;1H\u001b[H\u001b[2J\u001b]0;Marlin shell\u0007\u001b[?1002h\u001b[?1003h\u001b[?1006h\u001b[23;2H\u001b7\u001b[1;1H\u001b[47;30m\u001b[1;1H\u001b[K\u001b[m\u001b[2;1H\u001b[36m\u001b(0lq\u001b[m\u001b(BPrinter\u001b[1Cconsole\u001b[36m\u001b(0qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk\u001b[m\u001b[3;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[4;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[5;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[6;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[7;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[8;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[9;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                          "
+    ],
+    [
+      2.8e-05,
+      "    \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[10;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[11;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[12;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[13;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[14;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[15;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[16;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[17;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[18;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                             "
+    ],
+    [
+      2.4e-05,
+      "                                 \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[19;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[20;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[21;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[22;1H\u001b[36mtq\u001b[m\u001b(BCommand\u001b[36m\u001b(0qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqu\u001b[m\u001b[23;1H\u001b[36mx\u001b[m\u001b[4;37m\u001b(B \u001b[m\u001b[32m                                                                             \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[24;1H\u001b[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.033097,
+      "\u001b7\u001b[1;1H\u001b[43;30mbusy \u001b[1C\u001b[m\u001b[47;30mHotend:0/0\u001b(0f\u001b(BC\u001b[2CHotbed:0/0\u001b(0f\u001b(BC\u001b[3C\u001b[m\u001b[42;30mconnected\u001b[m\u001b8"
+    ],
+    [
+      0.449486,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.494025,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.185327,
+      "\u001b7\u001b[3;1H\u001b[3;2H\u001b[37mstart\u001b[m\u001b8\u001b7\u001b[2;21r\u001b[4;1H\u001b[1L\u001b[1;24r\u001b[4;1H\u001b[4;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Becho:Marlin 1.1.5                                                             \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8\u001b7\u001b[2;21r\u001b[5;1H\u001b[1L\u001b[1;24r\u001b[5;1H\u001b[5;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Becho: Last Updated: 2017-08-28 12:00 | Author: stef <stefdev.49@gmail.com>    \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8\u001b7\u001b[2;21r\u001b[6;1H\u001b[1L\u001b[1;24r\u001b[6;1H\u001b[6;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Becho:Compiled: Sep 12 2017                                                    \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8\u001b7\u001b[2;21r\u001b[7;1H\u001b[1L\u001b[1;24r\u001b[7;1H\u001b[7;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Becho: Free Memory: 2758  PlannerBufferBytes: 1232                             \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8\u001b7\u001b[2;21r\u001b[8;1H\u001b[1L\u001b[1;24r\u001b[8;1H\u001b[8;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Becho:V40 stored settings retrieved (498 bytes; crc 60215)                     \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8\u001b7\u001b[2;21r\u001b[9;1H\u001b[1L\u001b[1;24r\u001b[9;1H\u001b[9;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(BUnified Bed Leveling System v1.01 active.                                     \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.050641,
+      "\u001b7\u001b[2;21r\u001b[10;1H\u001b[1L\u001b[1;24r\u001b[10;1H\u001b[10;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(BUnified Bed Leveling initialized.                                             \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8\u001b7\u001b[2;21r\u001b[11;1H\u001b[1L\u001b[1;24r\u001b[11;1H\u001b[11;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(BMesh loaded from slot 0                                                       \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8\u001b7\u001b[2;21r\u001b[12;1H\u001b[1L\u001b[1;24r\u001b[12;1H\u001b[12;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(BMesh 0 loaded from storage.                                                   \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8\u001b7\u001b[2;21r\u001b[13;1H\u001b[1L\u001b[1;24r\u001b[13;1H\u001b[13;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Becho:  G21    ; Units in mm                                                   \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8\u001b7\u001b[2;21r\u001b[14;1H\u001b[1L\u001b[1;24r\u001b[14;1H\u001b[14;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Becho:  M149 C ; Units in Celsius                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8\u001b7\u001b[2;21r\u001b[15;1H\u001b[1L\u001b[1;24r\u001b[15;1H\u001b[15;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Becho:Filament settings: Disabled                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8\u001b7\u001b[2;21r\u001b[16;1H\u001b[1L\u001b[1;24r\u001b[16;1H\u001b[16;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Becho:  M2"
+    ],
+    [
+      4.9e-05,
+      "00 D1.75                                                             \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8\u001b7\u001b[2;21r\u001b[17;1H\u001b[1L\u001b[1;24r\u001b[17;1H\u001b[17;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Becho:  M200 D0                                                                \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8\u001b7\u001b[2;21r\u001b[18;1H\u001b[1L\u001b[1;24r\u001b[18;1H\u001b[18;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Becho:Steps per unit:                                                          \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8\u001b7\u001b[2;21r\u001b[19;1H\u001b[1L\u001b[1;24r\u001b[19;1H\u001b[19;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Becho:  M92 X80.00 Y80.00 Z2560.00 E98.00                                      \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8\u001b7\u001b[2;21r\u001b[20;1H\u001b[1L\u001b[1;24r\u001b[20;1H\u001b[20;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Becho:Maximum feedrates (units/s):                                             \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8\u001b7\u001b[2;21r\u001b[21;1H\u001b[1L\u001b[1;24r\u001b[21;1H\u001b[21;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Becho:  M203 X500.00 Y500.00 Z4.00 E170.00                                     \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8\u001b7\u001b[3;1H\u001b[3;79H\u001b[44;37m \u001b[m\u001b8\u001b7\u001b[3;21r\u001b[3;1H\u001b[2M\u001b[1;24r\u001b[20;1H\u001b[20;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Becho:Maximum Acceleration (units/s2):              "
+    ],
+    [
+      3.7e-05,
+      "                           \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[21;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Becho:  M201 X9000 Y3000 Z100 E10000                                          \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.036631,
+      "\u001b7\u001b[15;1H\u001b[15;79H\u001b[44;37m \u001b[m\u001b[21;1H\u001b[21;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[12;1H\u001b[12;79H\u001b[44;37m \u001b[m\u001b[15;1H\u001b[15;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[9;1H\u001b[9;79H\u001b[44;37m \u001b[m\u001b[12;1H\u001b[12;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[8;1H\u001b[8;79H\u001b[44;37m \u001b[m\u001b[9;1H\u001b[9;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[7;1H\u001b[7;79H\u001b[44;37m \u001b[m\u001b[8;1H\u001b[8;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[6;1H\u001b[6;79H\u001b[44;37m \u001b[m\u001b[7;1H\u001b[7;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[3;21r\u001b[3;1H\u001b[10M\u001b[1;24r\u001b[12;1H\u001b[12;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Becho:Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel> \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[13;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Becho:  M204 P3000.00 R3000.00 T3000.00                                        \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[14;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Becho:Advanced: S<min_feedrate> T<min_travel_feedrate> B<min_segment_time_ms>  \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[15;1H\u001b[36mx\u001b[m\u001b[37m\u001b(BX<max_xy_jerk> Z<max_z_jerk> E<max_e_jerk>                                    \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[16;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Becho:  M205 S0.00 T0.00 B20000 X20.00 Y20.00 Z0.40 E5.00                      \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[17;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Becho:Home offset:                                             "
+    ],
+    [
+      5.1e-05,
+      "                \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[18;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Becho:  M206 X0.00 Y0.00 Z0.00                                                 \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[19;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Becho:Unified Bed Leveling:                                                    \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[20;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Becho:  M420 S1 Z10.00                                                         \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[21;1H\u001b[36mx\u001b[m\u001b[37m\u001b(BUnified Bed Leveling System v1.01 active.                                    \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.025977,
+      "\u001b7\u001b[20;1H\u001b[20;79H\u001b[44;37m \u001b[m\u001b[21;1H\u001b[21;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[19;1H\u001b[19;79H\u001b[44;37m \u001b[m\u001b[20;1H\u001b[20;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[18;1H\u001b[18;79H\u001b[44;37m \u001b[m\u001b[19;1H\u001b[19;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[17;1H\u001b[17;79H\u001b[44;37m \u001b[m\u001b[18;1H\u001b[18;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[16;1H\u001b[16;79H\u001b[44;37m \u001b[m\u001b[17;1H\u001b[17;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[15;1H\u001b[15;79H\u001b[44;37m \u001b[m\u001b[16;1H\u001b[16;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[14;1H\u001b[14;79H\u001b[44;37m \u001b[m\u001b[15;1H\u001b[15;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[13;1H\u001b[13;79H\u001b[44;37m \u001b[m\u001b[14;1H\u001b[14;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[3;21r\u001b[3;1H\u001b[10M\u001b[1;24r\u001b[3;1H\u001b[3;79H\u001b[37m \u001b[m\u001b[12;1H\u001b[12;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(BActive Mesh Slot: 0                                                           \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[13;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Bz_offset: 0.000000                                                            \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[14;1H\u001b[36mx\u001b[m\u001b[37m\u001b(BEEPROM can hold 17 meshes.                                                    \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[15;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Becho:Material heatup parameters:                                              \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[16;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Becho:  M145 S0 H180 B60 F0       "
+    ],
+    [
+      4.1e-05,
+      "                                             \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[17;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B  M145 S1 H240 B90 F0                                                         \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[18;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Becho:PID settings:                                                            \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[19;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Becho:  M301 P32.48 I6.40 D41.25 C100.00 L20                                   \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[20;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Becho:Z-Probe Offset (mm):                                                     \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[21;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Becho:  M851 Z-2.40                                                           \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.191847,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.50134,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.502165,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.499419,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.501029,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.501065,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.500931,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.501108,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.501007,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.500956,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.311167,
+      "\u001b7\u001b[1;1H\u001b[42;30mready\u001b[m\u001b8\u001b7\u001b[3;21r\u001b[3;1H\u001b[1M\u001b[1;24r\u001b[20;1H\u001b[20;79H\u001b[37m \u001b[m\u001b[21;1H\u001b[21;1H\u001b[36m\u001b(0x\u001b[m\u001b[31m\u001b(Becho:SD init fail\u001b[m\u001b[37m                                                            \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.193847,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.49698,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.500963,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.50106,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.491164,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;2H\u001b[32mM\u001b[m\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.008996,
+      "\u001b7\u001b[23;1H\u001b[23;3H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.265147,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;3H\u001b[32m1\u001b[m\u001b8"
+    ],
+    [
+      0.151043,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;4H\u001b[32m0\u001b[m\u001b8"
+    ],
+    [
+      0.08457,
+      "\u001b7\u001b[23;1H\u001b[23;5H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.283438,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;5H\u001b[32m5\u001b[m\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.216694,
+      "\u001b7\u001b[23;1H\u001b[23;6H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.104153,
+      "\u001b[?25l\u001b7\u001b[1;1H\u001b[43;30mbusy \u001b[m\u001b[23;1H\u001b[23;2H\u001b[32m    \u001b[m\u001b8\u001b[4D"
+    ],
+    [
+      0.001858,
+      "\u001b7\u001b[3;21r\u001b[3;1H\u001b[1M\u001b[1;24r\u001b[20;1H\u001b[20;79H\u001b[37m \u001b[m\u001b[21;1H\u001b[21;1H\u001b[36m\u001b(0x\u001b[m\u001b[32m\u001b(BM105\u001b[m\u001b[37m                                                                         \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.014122,
+      "\u001b7\u001b[1;1H\u001b[42;30mready\u001b[8C\u001b[m\u001b[47;30m23.52/0.00\u001b(0f\u001b(BC  Hotbed:19.06/0.00\u001b(0f\u001b(BC\u001b[3C\u001b[m\u001b[42;30mconnected\u001b[m\u001b8\u001b7\u001b[3;21r\u001b[3;1H\u001b[1M\u001b[1;24r\u001b[20;1H\u001b[20;79H\u001b[37m \u001b[m\u001b[21;1H\u001b[21;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Bok T:23.52 /0.00 B:19.06 /0.00 @:0 B@:0                                      \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.380973,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.500915,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.500937,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.500922,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.500979,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.500969,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.501156,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.500992,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.207738,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;2H\u001b[32mM\u001b[m\u001b8"
+    ],
+    [
+      0.292896,
+      "\u001b7\u001b[23;1H\u001b[23;3H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.018784,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;3H\u001b[32m1\u001b[m\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.155943,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;4H\u001b[32m1\u001b[m\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.325855,
+      "\u001b7\u001b[23;1H\u001b[23;5H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.082479,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;5H\u001b[32m5\u001b[m\u001b8"
+    ],
+    [
+      0.417909,
+      "\u001b7\u001b[23;1H\u001b[23;6H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.046969,
+      "\u001b[?25l\u001b7\u001b[23;1H\u001b[23;6H\u001b[32m \u001b[m\u001b8\u001b7\u001b[1;1H\u001b[43;30mbusy \u001b[m\u001b[23;1H\u001b[23;2H\u001b[32m    \u001b[m\u001b8\u001b[4D\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.003331,
+      "\u001b7\u001b[3;21r\u001b[3;1H\u001b[1M\u001b[1;24r\u001b[20;1H\u001b[20;79H\u001b[37m \u001b[m\u001b[21;1H\u001b[21;1H\u001b[36m\u001b(0x\u001b[m\u001b[32m\u001b(BM115\u001b[m\u001b[37m                                                                         \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.046181,
+      "\u001b7\u001b[20;1H\u001b[20;79H\u001b[44;37m \u001b[m\u001b[21;1H\u001b[21;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[19;1H\u001b[19;79H\u001b[44;37m \u001b[m\u001b[20;1H\u001b[20;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[18;1H\u001b[18;79H\u001b[44;37m \u001b[m\u001b[19;1H\u001b[19;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[17;1H\u001b[17;79H\u001b[44;37m \u001b[m\u001b[18;1H\u001b[18;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[16;1H\u001b[16;79H\u001b[44;37m \u001b[m\u001b[17;1H\u001b[17;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[15;1H\u001b[15;79H\u001b[44;37m \u001b[m\u001b[16;1H\u001b[16;79H\u001b[37m \u001b[m\u001b8\u001b7\u001b[1;1H\u001b[42;30mready\u001b[m\u001b8\u001b7\u001b[3;21r\u001b[3;1H\u001b[15M\u001b[1;24r\u001b[7;1H\u001b[7;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(BFIRMWARE_NAME:Marlin 1.1.5 (Github) SOURCE_CODE_URL:https://github.com:stefde \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[8;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Bv49/Marlin PROTOCOL_VERSION:1.0 MACHINE_TYPE:DiscEasy200 EXTRUDER_COUNT:1     \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[9;1H\u001b[36mx\u001b[m\u001b[37m\u001b(BUUID:cede2a2f-41a2-4748-9b12-c55c62f367ff                                     \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[10;1H\u001b[36mx\u001b[m\u001b[37m\u001b(BCap:EEPROM:1                                                                  \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[11;1H\u001b[36mx\u001b[m\u001b[37m\u001b(BCap:AUTOREPORT_TEMP:1                                                         \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[12;1H\u001b[36mx\u001b[m\u001b[37m\u001b(BCap:PROGRESS:0            "
+    ],
+    [
+      5e-05,
+      "                                                    \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[13;1H\u001b[36mx\u001b[m\u001b[37m\u001b(BCap:PRINT_JOB:1                                                               \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[14;1H\u001b[36mx\u001b[m\u001b[37m\u001b(BCap:AUTOLEVEL:1                                                               \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[15;1H\u001b[36mx\u001b[m\u001b[37m\u001b(BCap:Z_PROBE:1                                                                 \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[16;1H\u001b[36mx\u001b[m\u001b[37m\u001b(BCap:LEVELING_DATA:1                                                           \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[17;1H\u001b[36mx\u001b[m\u001b[37m\u001b(BCap:SOFTWARE_POWER:0                                                          \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[18;1H\u001b[36mx\u001b[m\u001b[37m\u001b(BCap:TOGGLE_LIGHTS:0                                                           \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[19;1H\u001b[36mx\u001b[m\u001b[37m\u001b(BCap:CASE_LIGHT_BRIGHTNESS:0                                                   \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[20;1H\u001b[36mx\u001b[m\u001b[37m\u001b(BCap:EMERGENCY_PARSER:0                                                        \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[21;1H\u001b[36mx\u001b[m\u001b[37m"
+    ],
+    [
+      6.1e-05,
+      "\u001b(Bok P15 B3                                                                    \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.40542,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.500028,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.501053,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.501333,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.50152,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.500131,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.501098,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.501223,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.133761,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;2H\u001b[32mG\u001b[m\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.378954,
+      "\u001b7\u001b[23;1H\u001b[23;3H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.03669,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;3H\u001b[32m2\u001b[m\u001b8"
+    ],
+    [
+      0.457625,
+      "\u001b7\u001b[23;1H\u001b[23;4H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.327224,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;4H\u001b[32m9\u001b[m\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.168689,
+      "\u001b7\u001b[23;1H\u001b[23;5H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.030726,
+      "\u001b[1C"
+    ],
+    [
+      0.470025,
+      "\u001b7\u001b[23;1H\u001b[23;6H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.07425,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;6H\u001b[32mT\u001b[m\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.426973,
+      "\u001b7\u001b[23;1H\u001b[23;7H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.100823,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;7H\u001b[32m0\u001b[m\u001b8"
+    ],
+    [
+      0.400035,
+      "\u001b7\u001b[23;1H\u001b[23;8H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.11045,
+      "\u001b[?25l\u001b7\u001b[23;1H\u001b[23;8H\u001b[32m \u001b[m\u001b8\u001b7\u001b[1;1H\u001b[43;30mbusy \u001b[m\u001b[23;1H\u001b[23;2H\u001b[32m   \u001b[1C  \u001b[m\u001b8\u001b[6D\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.003783,
+      "\u001b7\u001b[3;21r\u001b[3;1H\u001b[1M\u001b[1;24r\u001b[20;1H\u001b[20;79H\u001b[37m \u001b[m\u001b[21;1H\u001b[21;1H\u001b[36m\u001b(0x\u001b[m\u001b[32m\u001b(BG29 T0\u001b[m\u001b[37m                                                                       \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.029569,
+      "\u001b7\u001b[3;21r\u001b[3;1H\u001b[1M\u001b[1;24r\u001b[20;1H\u001b[20;79H\u001b[37m \u001b[m\u001b[21;1H\u001b[21;1H\u001b[36m\u001b(0x\u001b[m\u001b[31m\u001b(Becho:Home XYZ first\u001b[m\u001b[37m                                                          \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.029537,
+      "\u001b7\u001b[3;21r\u001b[3;1H\u001b[2M\u001b[1;24r\u001b[19;1H\u001b[19;79H\u001b[37m \u001b[m\u001b[20;1H\u001b[20;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(BBed Topography Report:                                                        \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[21;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B(0,6)                                           (6,6)                        \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.028922,
+      "\u001b7\u001b[3;21r\u001b[3;1H\u001b[1M\u001b[1;24r\u001b[20;1H\u001b[20;79H\u001b[37m \u001b[m\u001b[21;1H\u001b[21;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(B(1,204)                                        (204,204)                     \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.134612,
+      "\u001b7\u001b[3;21r\u001b[3;1H\u001b[2M\u001b[1;24r\u001b[19;1H\u001b[19;79H\u001b[37m \u001b[m\u001b[20;1H\u001b[20;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(B -0.664   -0.977   -0.704   -0.380   -0.163    0.139    1.235                 \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[21;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                             \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.163749,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.012843,
+      "\u001b7\u001b[3;21r\u001b[3;1H\u001b[2M\u001b[1;24r\u001b[19;1H\u001b[19;79H\u001b[37m \u001b[m\u001b[20;1H\u001b[20;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(B -1.072   -0.911   -0.631   -0.345   -0.068    0.174    0.572                 \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[21;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                             \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.10846,
+      "\u001b7\u001b[3;21r\u001b[3;1H\u001b[2M\u001b[1;24r\u001b[19;1H\u001b[19;79H\u001b[37m \u001b[m\u001b[20;1H\u001b[20;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(B -0.983   -0.772   -0.451   -0.214    0.020    0.205    0.588                 \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[21;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                             \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.110657,
+      "\u001b7\u001b[3;21r\u001b[3;1H\u001b[2M\u001b[1;24r\u001b[19;1H\u001b[19;79H\u001b[37m \u001b[m\u001b[20;1H\u001b[20;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(B -0.835   -0.652   -0.311   -0.050    0.093    0.252    0.582                 \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[21;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                             \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.099073,
+      "\u001b7\u001b[3;21r\u001b[3;1H\u001b[2M\u001b[1;24r\u001b[19;1H\u001b[19;79H\u001b[37m \u001b[m\u001b[20;1H\u001b[20;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(B -0.730   -0.536   -0.214   -0.015    0.160    0.314    0.573                 \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[21;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                             \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.110703,
+      "\u001b7\u001b[3;21r\u001b[3;1H\u001b[2M\u001b[1;24r\u001b[19;1H\u001b[19;79H\u001b[37m \u001b[m\u001b[20;1H\u001b[20;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(B -0.659   -0.494   -0.231   -0.052    0.092    0.256    0.421                 \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[21;1H\u001b[36mx\u001b[m\u001b[37m\u001b(B                                                                             \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.058002,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.050378,
+      "\u001b7\u001b[3;21r\u001b[3;1H\u001b[1M\u001b[1;24r\u001b[20;1H\u001b[20;79H\u001b[37m \u001b[m\u001b[21;1H\u001b[21;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(B[    .   ]      .          .          .          .          .          .     \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.013768,
+      "\u001b7\u001b[3;21r\u001b[3;1H\u001b[1M\u001b[1;24r\u001b[20;1H\u001b[20;79H\u001b[37m \u001b[m\u001b[21;1H\u001b[21;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(B(1,1)                                            (204,1)                     \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.037074,
+      "\u001b7\u001b[1;1H\u001b[42;30mready\u001b[m\u001b8\u001b7\u001b[3;21r\u001b[3;1H\u001b[2M\u001b[1;24r\u001b[19;1H\u001b[19;79H\u001b[37m \u001b[m\u001b[20;1H\u001b[20;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(B(0,0)                                             (6,0)                       \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[21;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Bok P15 B3                                                                    \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.39924,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.500107,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.501081,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.509645,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.496439,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.496253,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.501103,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.04681,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;2H\u001b[32mM\u001b[m\u001b8"
+    ],
+    [
+      0.454075,
+      "\u001b7\u001b[23;1H\u001b[23;3H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.170134,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;3H\u001b[32m8\u001b[m\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.303342,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;4H\u001b[32m5\u001b[m\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.026561,
+      "\u001b7\u001b[23;1H\u001b[23;5H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.357531,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;5H\u001b[32m1\u001b[m\u001b8"
+    ],
+    [
+      0.142726,
+      "\u001b7\u001b[23;1H\u001b[23;6H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.231823,
+      "\u001b[?25l\u001b7\u001b[23;1H\u001b[23;6H\u001b[32m \u001b[m\u001b8\u001b7\u001b[1;1H\u001b[43;30mbusy \u001b[m\u001b[23;1H\u001b[23;2H\u001b[32m    \u001b[m\u001b8\u001b[4D\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.002092,
+      "\u001b7\u001b[3;21r\u001b[3;1H\u001b[1M\u001b[1;24r\u001b[20;1H\u001b[20;79H\u001b[37m \u001b[m\u001b[21;1H\u001b[21;1H\u001b[36m\u001b(0x\u001b[m\u001b[32m\u001b(BM851\u001b[m\u001b[37m                                                                         \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.009804,
+      "\u001b7\u001b[1;1H\u001b[42;30mready\u001b[m\u001b8\u001b7\u001b[3;21r\u001b[3;1H\u001b[2M\u001b[1;24r\u001b[19;1H\u001b[19;79H\u001b[37m \u001b[m\u001b[20;1H\u001b[20;1H\u001b[36m\u001b(0x\u001b[m\u001b[37m\u001b(Becho:Z Offset : -2.40                                                         \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b[21;1H\u001b[36mx\u001b[m\u001b[37m\u001b(Bok P15 B3                                                                    \u001b[m\u001b[44;37m \u001b[m\u001b[36m\u001b(0x\u001b[m\u001b(B\u001b8"
+    ],
+    [
+      0.256965,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.50106,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.50107,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.501081,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.500259,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.501114,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.500242,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.501111,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.501059,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.501089,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.501238,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.500121,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.501055,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.501058,
+      "\u001b7\u001b[23;1H\u001b[23;2H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.06895,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;2H\u001b[32me\u001b[m\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.311837,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;3H\u001b[32mx\u001b[m\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.1206,
+      "\u001b7\u001b[23;1H\u001b[23;4H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.112131,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;4H\u001b[32mi\u001b[m\u001b8"
+    ],
+    [
+      0.201105,
+      "\u001b[1C\u001b7\u001b[23;1H\u001b[23;5H\u001b[32mt\u001b[m\u001b8"
+    ],
+    [
+      0.187116,
+      "\u001b7\u001b[23;1H\u001b[23;6H\u001b[4;37m \u001b[m\u001b8"
+    ],
+    [
+      0.500077,
+      "\u001b7\u001b[23;1H\u001b[23;6H\u001b[32m \u001b[m\u001b8"
+    ],
+    [
+      0.415397,
+      "\u001b[?25l"
+    ],
+    [
+      0.000741,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.000105,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.004431,
+      "\u001b[H\u001b[2J"
+    ],
+    [
+      0.000545,
+      "\u001b[?1002l"
+    ],
+    [
+      4.3e-05,
+      "\u001b[?1003l"
+    ],
+    [
+      0.001429,
+      "\u001b[?1006l"
+    ],
+    [
+      8.4e-05,
+      "\u001b[?1049l"
+    ],
+    [
+      0.016021,
+      "\u001b]0;stefdev@staros ~/3D/DagoMate/tools/marlinshell\u0007\u001b[01;32mstefdev@staros\u001b[00m \u001b[01;34m~/3D/DagoMate/tools/marlinshell $\u001b[00m "
+    ]
+  ],
+  "duration": 42.643014,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "title": null,
+  "height": 24
+}

@@ -1,0 +1,23 @@
+---
+layout: project
+title: "Companion tools for DiscoEasy200"
+author: stefdev49
+categories:
+- project
+img: dagomate.png
+thumb: dagomate-thumb.jpg
+tagged: 3d printer, DiscoEasy200, marlin firmware, tools
+website: https://github.com/stefdev49/DagoMate
+---
+#### Tools, scripts and helpers for DiscoEasy200
+<div class="hline"></div>
+Various tools and scripts to setup, tune and use the DiscoEasy200 with the marlin firmware.
+
+
+#### Marlin shell
+The `marlinshell` tools is in the `tools/marlinsheel` directory. It is a nodejs terminal shell to pilot a 3D printer with the marlin firmware over USB. Requires the firmware to be built with the `#define ADVANCED_OK` define.
+
+Video demo :
+<asciinema-player src="/assets/video/asciicast-137881.json" cols="80" rows="24"></asciinema-player>
+
+More details [here](https://github.com/stefdev49/DagoMate/tree/master/tools/marlinshell).
