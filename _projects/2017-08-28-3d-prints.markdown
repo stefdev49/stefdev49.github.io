@@ -15,6 +15,7 @@ carousel:
 - piece-arbre.png
 - arbre-a-bijoux.png
 - samsung-s8-ecouteurs.png
+- bracelet-corail.png
 
 ---
 #### 3D prints done with the Dagoma DiscoEasy200

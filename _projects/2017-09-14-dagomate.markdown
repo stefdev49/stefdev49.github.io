@@ -5,7 +5,7 @@ author: stefdev49
 categories:
 - project
 img: dagomate.png
-thumb: dagomate-thumb.jpg
+thumb: dagomate-thumb.png
 tagged: 3d printer, DiscoEasy200, marlin firmware, tools
 website: https://github.com/stefdev49/DagoMate
 ---

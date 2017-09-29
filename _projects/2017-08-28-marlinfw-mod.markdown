@@ -5,7 +5,7 @@ author: stefdev49
 categories:
 - project
 img: marlin-250.png
-thumb: marlin-thumb.jpg
+thumb: marlin-thumb.png
 tagged: 3d printer, DiscoEasy200, marlin firmware
 website: https://github.com/stefdev49/Marlin
 ---
