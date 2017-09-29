@@ -7,11 +7,13 @@ categories:
   - cura
 thumb: cura-64.png
 ---
-To enable filament change with latest marlin firmware, we need to insert `M600` gcode at the desired layer. There is no stock plugin for it in Cura, but this may be overcome by using the post processing plugin : ![post processing plugin](/assets/img/blog/post-process.png)
+To enable filament change with latest marlin firmware, we need to insert `M600` gcode at the desired layer. There is no stock plugin for it in Cura, but this may be overcome by using the post processing plugin :
+<!--more-->
+![post processing plugin](/assets/img/blog/post-process.png)
 
 Using the available 'Pause at height for BQ printers' will insert a `M25` gcode at the desired height. Then we use the 'Search and replace' to replace `M25 ` (note the blank character) with `M600` : ![pause at height](/assets/img/blog/pause-at-height.png)
 
-Specify height for filament change : 
+Specify height for filament change :
 ![height value](/assets/img/blog/pause-at-height-value.png)
 
 And last post-processing, replace `M25 ` with `M600` :
