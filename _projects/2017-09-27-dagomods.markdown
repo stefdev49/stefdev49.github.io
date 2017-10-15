@@ -1,0 +1,30 @@
+---
+layout: project
+title: "DiscoEasy200 mods"
+author: stefdev49
+categories:
+- project
+img: dagoma_mods.png
+thumb: dagoma_mods-thumb.png
+tagged: 3d printer, DiscoEasy200, modifications
+---
+#### DiscoEasy200 modifications and improvements
+<div class="hline"></div>
+Various mods of the DiscoEasy200.
+
+
+#### OK Button
+I wanted to be able to use the filament change feature of the marlin firmware (M600 gcode). But it currently requires a LCD panel which I don't have. Since the M108 gcode doesn't work correctly, I decided to add a push button used as an 'OK button' and modify the firmware to handle it.
+<!--more-->
+
+The MKS Base 1.2 in the DiscoEasy200 has 2 free analog pins : ![A11 and A12](/assets/img/project/mods/a11-and-a12.png)
+
+By wiring a simple push button and a 10k pull-up resistor to A11 ![schematic](/assets/img/project/mods/schematic.png)
+![final](/assets/img/project/mods/final.png)
+
+the pin value is set to HIGH when the button is not pressed, and to LOW when it is pressed.
+
+
+
+
+But we also have to modify the firmware to take this button into account.
