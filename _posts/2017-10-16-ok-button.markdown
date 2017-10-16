@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Adding an OK button to the DiscoEasy200"
+author: stefdev49
+categories:
+  - blog
+  - mods
+thumb: mods-thumb.png
+---
+I wanted to be able to use the filament change feature of the marlin firmware (M600 gcode). But it currently requires a LCD panel which I don't have.
+<!--more-->
+Since the `M108` gcode doesn't work correctly, I decided to add a push button used as an 'OK button' and modify the firmware to handle it.
+
+The MKS Base 1.2 motherboard of the DiscoEasy200 has 2 free analog pins (A11 and A12): ![A11 and A12](/assets/img/project/mods/a11-and-a12.png)
+
+By wiring a simple push button and a 10kΩ pull-up resistor to A11 ![schematic](/assets/img/project/mods/schematic.png)
+![final](/assets/img/project/mods/final.png)
+
+you get a pin value set to HIGH when the button is not pressed, and to LOW when it is pressed.
+
+Next we have to modify the firmware ....
