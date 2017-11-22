@@ -16,8 +16,9 @@ carousel:
 - arbre-a-bijoux.png
 - samsung-s8-ecouteurs.png
 - bracelet-corail.png
+- storm-trooper.png
 
 ---
 #### 3D prints done with the Dagoma DiscoEasy200
 <div class="hline"></div>
-All these prints have been done with my tuned up marlin firmware.
+All these prints have been done with my tuned up [custom marlin firmware](/projects/marlinfw-mod/).
