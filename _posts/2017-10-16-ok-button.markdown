@@ -18,4 +18,46 @@ By wiring a simple push button and a 10kΩ pull-up resistor to A11 ![schematic](
 
 you get a pin value set to HIGH when the button is not pressed, and to LOW when it is pressed.
 
-Next we have to modify the firmware ....
+The wiring can be tested with the `M43` gcode if the firmware is built with the following define in `Marlin/Configuration_adv.h` :
+```c
+#define PINS_DEBUGGING
+```
+
+Issuing `M43` dumps the pins status. When the button is not pressed we get :
+```
+M43
+PIN:   0   Port: E0        RXD                         protected
+PIN:   1   Port: E1        TXD                         protected
+PIN:   2   Port: E4        CASE_LIGHT_PIN              protected
+...............
+PIN:  62   Port: K0 (A 8)  Z_ENABLE_PIN                protected
+PIN:  63   Port: K1 (A 9)  <unused/unknown>   Analog in =   923   Input  = 1  
+PIN:  64   Port: K2 (A10)  <unused/unknown>   Analog in =   769   Input  = 1  
+PIN:  65   Port: K3 (A11)  <unused/unknown>   Analog in =  1023   Input  = 1  
+...............
+PIN:  69   Port: K7 (A15)  TEMP_1_PIN                  Analog in =  1023  
+ok P15 B3
+```
+So we have a high digital value when button is not pressed. The when we issue `M43` again with the button held down we have a 0 digital value :
+```
+M43
+PIN:   0   Port: E0        RXD                         protected
+PIN:   1   Port: E1        TXD                         protected
+PIN:   2   Port: E4        CASE_LIGHT_PIN              protected
+...............
+PIN:  62   Port: K0 (A 8)  Z_ENABLE_PIN                protected
+PIN:  63   Port: K1 (A 9)  <unused/unknown>   Analog in =   922   Input  = 1  
+PIN:  64   Port: K2 (A10)  <unused/unknown>   Analog in =   769   Input  = 1  
+PIN:  65   Port: K3 (A11)  <unused/unknown>   Analog in =     0   Input  = 0  
+PIN:  66   Port: K4 (A12)  BEEPER_PIN                  Output = 0  
+PIN:  67   Port: K5 (A13)  TEMP_0_PIN                  protected
+PIN:  68   Port: K6 (A14)  TEMP_BED_PIN                protected
+PIN:  69   Port: K7 (A15)  TEMP_1_PIN                  Analog in =  1023  
+ok P15 B3
+
+```
+
+So the code to test button is pressed is as simple as :
+```c
+digitalRead(65) == LOW
+```

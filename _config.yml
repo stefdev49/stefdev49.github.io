@@ -10,6 +10,7 @@ url: "https://stefdev49.github.io"
 # Build settings
 # highlighter: rouge
 markdown: kramdown
+highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
